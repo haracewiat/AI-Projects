@@ -9,7 +9,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 # Read the file
-d = pd.read_csv("dataset/Youtube01-Psy.csv")
+d = pd.read_csv("dataset/YouTube/Youtube01-Psy.csv")
 
 """
     To check count of rows with a particular feature, the following code can
@@ -81,11 +81,11 @@ scores = cross_val_score(clf, d_train_att, d_train_label, cv=5)
 
 
 # Combine all datasets
-d = pd.concat([pd.read_csv("dataset/Youtube01-Psy.csv"),
-               pd.read_csv("dataset/Youtube02-KatyPerry.csv"),
-               pd.read_csv("dataset/Youtube03-LMFAO.csv"),
-               pd.read_csv("dataset/Youtube04-Eminem.csv"),
-               pd.read_csv("dataset/Youtube05-Shakira.csv")])
+d = pd.concat([pd.read_csv("dataset/YouTube/Youtube01-Psy.csv"),
+               pd.read_csv("dataset/YouTube/Youtube02-KatyPerry.csv"),
+               pd.read_csv("dataset/YouTube/Youtube03-LMFAO.csv"),
+               pd.read_csv("dataset/YouTube/Youtube04-Eminem.csv"),
+               pd.read_csv("dataset/YouTube/Youtube05-Shakira.csv")])
 
 
 # Shuffle the data
