@@ -144,6 +144,3 @@ print("Loss: %.4f, accuracy: %.4f" % (loss, acc))
     neurons in the 100 has its own bias term, its own bias weight, and that needs to 
     be learned as well.
 """
-
-
-# %%

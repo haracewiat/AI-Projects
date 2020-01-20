@@ -1,3 +1,7 @@
+"""
+    Spam Detector using Random Forests and bag-of-words. 
+"""
+
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import RandomForestClassifier
