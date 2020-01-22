@@ -1,3 +1,7 @@
+"""
+    Bird Identifier using Random Forest. 
+"""
+
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
